@@ -1,0 +1,12 @@
+/* main stylesheet file */
+
+.main-content {
+  width: 500px;
+  margin: auto;
+}
+
+button {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+}

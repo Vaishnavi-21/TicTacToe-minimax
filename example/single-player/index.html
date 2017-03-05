@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <script src="../../src/tic-tac-toe.minimax.js"></script>    
+    <script src="../jquery-3.1.1.min.js"></script>    
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="main-content">
+      <h1>Tic Tac Toe Game: Single player and AI</h1>
+
+      <div class="game">
+        Play: <span>click in box to play</span><br/>
+        Results: <span id="winner">?</span><br/>
+        <br>
+        <table>
+            <tr>
+                <td><button id="x0y0"></button></td>
+                <td><button id="x0y1"></button></td>
+                <td><button id="x0y2"></button></td>
+            </tr>
+            <tr>
+                <td><button id="x1y0"></button></td>
+                <td><button id="x1y1"></button></td>
+                <td><button id="x1y2"></button></td>
+            </tr>
+            <tr>
+                <td><button id="x2y0"></button></td>
+                <td><button id="x2y1"></button></td>
+                <td><button id="x2y2"></button></td>
+            </tr>
+        </table>
+
+        <br/>
+
+        <input type="button" id="restart" value="play again!"/>
+      </div>
+    </div>  
+    
+  </body>
+</html>
