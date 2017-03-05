@@ -4,7 +4,13 @@
 
 Tic Tac Toe game implementation with minimax decision algorithm.
 Single player game in which opponent will be an AI. AI will use minimax algorithm for making decision by traversing all possible moves ahead of current of his opponent.
+
+> ![Sinlge player](example/single-player/single-player.gif)
+
+
 While in Multi player game opponent won't be an AI.
+
+> ![Multi player](example/multi-player/multi-player.gif)
 
 ## Usage
 
