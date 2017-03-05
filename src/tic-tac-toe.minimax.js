@@ -51,6 +51,7 @@ var game = (function() {
        */
       this.turn = true;
 
+      // number of nodes
       this.nodes = 0;      
     } else {
       return new Game(playersCount);
@@ -68,14 +69,12 @@ var game = (function() {
     },
 
     /**
-     * 
      * winner = 
      *  0 : player 1 wins
      *  1 : player 2 wins / AI wins
      * -1 : tie
-     * 
      */   
-    winner: function(board) {
+    winner: function() {
         var playerSet = [true, false];
         var fullBoard = true;
         for (var k = 0; k < playerSet.length; k++) {
@@ -132,14 +131,14 @@ var game = (function() {
         this.turn = !this.turn;
         return this.board;
       } else {
-        this.board = this.makeAIMove(); 
+        this.board = this._makeAIMove(); 
         this.turn = true;              
         return this.board;
       }     
     },
 
     // AI move
-    makeAIMove: function() {
+    _makeAIMove: function() {
       this.nodes = 0;
       return this.minimax(false)[1];
     },

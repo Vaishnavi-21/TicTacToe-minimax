@@ -1,0 +1,28 @@
+{
+  "name": "tic-tac-toe-minimax",
+  "version": "0.0.1",
+  "description": "tic tac toe game with minimax algorithm",
+  "main": "src/tic-tac-toe.minimax.js",
+  "directories": {
+    "source": "src",
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep1991singh/TicTacToe-minimax.git"
+  },
+  "keywords": [
+    "tic-tac-toe",
+    "minimax-algorithm",
+    "game"
+  ],
+  "author": "pradeep1991singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeep1991singh/TicTacToe-minimax/issues"
+  },
+  "homepage": "https://github.com/pradeep1991singh/TicTacToe-minimax#readme"
+}

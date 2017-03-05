@@ -6,7 +6,7 @@ $(document).ready(function() {
     function updateMove() {
         updateButtons(g.board);
         
-        var winner = g.winner(g.board);
+        var winner = g.winner();
         
         $("#winner")
           .text(winner == 1 ? "You Won!" : (winner == 0) ? "AI Won!" : winner == -1 
